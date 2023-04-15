@@ -5,7 +5,7 @@ import ImageGallery from "../components/Blogs/ImageGallery";
 import Card3 from "../components/cards/Card3";
 import Card4 from "../components/cards/Card4";
 import { fetchBlogs } from "../http/UrlAddress.js";
-
+import Link from "next/link";
 function Home({ posts }) {
   // console.log(posts)
 

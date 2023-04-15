@@ -1,8 +1,9 @@
+import Link from "next/link";
 export default function Footer () {
   return (
     <footer className="py-12 leading-6 px-4 lg:px-8">
       <div className="flex justify-between mx-auto mb-6 max-w-screen-xl lg:mb-8">
-        <a
+        <Link
           className="px-2 space-x-2 flex items-center gap-x-1 text-2xl font-bold text-primary"
           href="#">
           Money ki baat
@@ -20,8 +21,8 @@ export default function Footer () {
               </svg>
             </div>
           </span>
-        </a>
-        <a
+        </Link>
+        <Link
           className="flex items-center cursor-pointer hover:text-gray-200"
           href="#">
           <span>Return to top</span>
@@ -39,7 +40,7 @@ export default function Footer () {
               </svg>
             </div>
           </span>
-        </a>
+        </Link>
       </div>
       <div className="pt-8 mx-auto max-w-screen-xl border-t-2 border-solid box-border space-y-8 dark:border-slate-700">
         <div className="md:grid md:grid-cols-5">
@@ -52,32 +53,32 @@ export default function Footer () {
           <nav className="col-span-4 col-start-2 mt-2 md:pl-12 md:mt-0 lg:pl-24">
             <ul className="flex flex-col p-0 space-y-2 sm:flex-row sm:space-x-10 sm:space-y-0">
               <li className="text-left">
-                <a
+                <Link
                   className="text-base font-normal cursor-pointer hover:text-gray-800 dark:hover:text-gray-100"
                   href="#">
                   Privacy Policy
-                </a>
+                </Link>
               </li>
               <li className="text-left">
-                <a
+                <Link
                   className="text-base font-normal cursor-pointer hover:text-gray-800 dark:hover:text-gray-100"
                   href="#">
                   Terms and conditions
-                </a>
+                </Link>
               </li>
               <li className="text-left">
-                <a
+                <Link
                   className="text-base font-normal cursor-pointer hover:text-gray-800 dark:hover:text-gray-100"
                   href="#">
                   Refund policy
-                </a>
+                </Link>
               </li>
               <li className="text-left">
-                <a
+                <Link
                   className="text-base font-normal cursor-pointer hover:text-gray-800 dark:hover:text-gray-100"
                   href="#">
                   Return Policy
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -91,32 +92,32 @@ export default function Footer () {
           <nav className="col-span-4 col-start-2 mt-2 md:pl-12 md:mt-0 lg:pl-24">
             <ul className="flex flex-col p-0 space-y-2 sm:flex-row sm:space-x-10 sm:space-y-0">
               <li className="text-left">
-                <a
+                <Link
                   className="text-base font-normal cursor-pointer hover:text-gray-800 dark:hover:text-gray-100"
                   href="#">
                   Care
-                </a>
+                </Link>
               </li>
               <li className="text-left">
-                <a
+                <Link
                   className="text-base font-normal cursor-pointer hover:text-gray-800 dark:hover:text-gray-100"
                   href="#">
                   About Us
-                </a>
+                </Link>
               </li>
               <li className="text-left">
-                <a
+                <Link
                   className="text-base font-normal cursor-pointer hover:text-gray-800 dark:hover:text-gray-100"
                   href="#">
                   Contact Us
-                </a>
+                </Link>
               </li>
               <li className="text-left">
-                <a
+                <Link
                   className="text-base font-normal cursor-pointer text-secondary hover:text-gray-800 dark:hover:text-gray-100"
                   href="#">
                   support@moneykibaat.com
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -131,7 +132,7 @@ export default function Footer () {
           <nav className="col-span-4 col-start-2 mt-2 md:pl-12 md:mt-0 lg:pl-24">
             <ul className="flex flex-col p-0 space-y-2 sm:flex-row sm:space-x-10 sm:space-y-0">
               <li className="text-left">
-                <a
+                <Link
                   className="flex text-base font-normal cursor-pointer items-center gap-x-2 hover:text-gray-800 dark:hover:text-gray-100"
                   href="#">
                   Twitter
@@ -149,10 +150,10 @@ export default function Footer () {
                       </svg>
                     </div>
                   </span>
-                </a>
+                </Link>
               </li>
               <li className="text-left">
-                <a
+                <Link
                   className="flex text-base font-normal cursor-pointer items-center gap-x-2 hover:text-gray-800 dark:hover:text-gray-100"
                   href="#">
                   Google
@@ -170,10 +171,10 @@ export default function Footer () {
                       </svg>
                     </div>
                   </span>
-                </a>
+                </Link>
               </li>
               <li className="text-left">
-                <a
+                <Link
                   className="flex text-base font-normal cursor-pointer items-center gap-x-2 hover:text-gray-800 dark:hover:text-gray-100"
                   href="#">
                   Instagram
@@ -191,7 +192,7 @@ export default function Footer () {
                       </svg>
                     </div>
                   </span>
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>

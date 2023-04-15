@@ -1,5 +1,6 @@
 import { Menu } from "@headlessui/react";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Header({ onSearch }) {
   const [query, setQuery] = useState('');
@@ -15,7 +16,7 @@ export default function Header({ onSearch }) {
   return (
     <div className="py-8  ">
       <header className="container m-auto flex justify-between items-center ">
-        <a
+        <Link
           className="inline-flex items-center text-black-800 font-bold gap-2.5 text-xl md:text-2xl"
           href="#"
         >
@@ -41,22 +42,22 @@ export default function Header({ onSearch }) {
             </div>
           </span>
           <span className="transition-all">Money ki baat</span>
-        </a>
+        </Link>
         <nav className="hidden lg:flex gap-12">
-          <a
+          <Link
             className="text-lg font-semibold text-primary lg:font-medium lg:text-base"
             href="#"
           >
             Home
-          </a>
+          </Link>
           
           
-          <a
+          <Link
             className="hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transition duration-100 lg:text-base lg:font-normal"
             href="#"
           >
             About
-          </a>
+          </Link>
         </nav>
         {/* <div>
           <input

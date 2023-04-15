@@ -1,13 +1,16 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 function Card2() {
   return (
     <>
       <Link className="p-4 block md:w-1/3" href="/blogs/all">
         <div className="h-full border-2 border-gray-200 border-opacity-60 overflow-hidden rounded-global dark:border-slate-700">
-          <img
+          <Image
             className="w-full object-cover object-center transition-all ease-in duration-200 hover:scale-105 bg-gray-50 md:h-36 lg:h-48"
+            width={10}
+            height={10}
             src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxvZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
           />
           <div className="p-6">

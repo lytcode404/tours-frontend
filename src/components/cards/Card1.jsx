@@ -1,28 +1,30 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
 
-function Card1({post}) {
-  const genre = post.genre
+function Card1({ post }) {
+  const genre = post.genre;
 
-  const thumbnail = post.thumbnail
+  const thumbnail = post.thumbnail;
 
-  const authorImage = post.authorImg
+  const authorImage = post.authorImg;
 
-  const authorName = post.authorName
-  const heading = post.heading
-  const slug = post.slug
-  
-  console.log(slug)
-  
+  const authorName = post.authorName;
+  const heading = post.heading;
+  const slug = post.slug;
+
+  console.log(slug);
 
   return (
     <>
       <div>
         <div className="relative">
-          <img
+          <Image
             className="w-full rounded-global h-[500px] bg-gray-100 pt-5 xl:object-top object-cover"
             src={thumbnail}
+            width={10}
+            height={10}
           />
           <div className="absolute right-3 left-3 bottom-3">
             <span className="bg-primary-500 text-white tracking-wide text-sm uppercase px-2 py-1 rounded-md">
@@ -30,8 +32,10 @@ function Card1({post}) {
             </span>
             <div className="left-3 bottom-3 right-3 bg-white p-4 mt-3 rounded-global dark:bg-black">
               <div className="flex items-center">
-                <img
+                <Image
                   className="w-10 h-10 rounded-full mr-3"
+                  width={10}
+                  height={10}
                   src={authorImage}
                 />
                 <p className="uppercase text-sm">{authorName}</p>
@@ -39,7 +43,10 @@ function Card1({post}) {
               <h1 className="text-xl font-semibold text-black mb-4 mt-2 dark:text-white 2xl:text-2xl">
                 {heading}
               </h1>
-              <Link className="flex items-center gap-x-1.5"  href={`/blogs/${slug}`}>
+              <Link
+                className="flex items-center gap-x-1.5"
+                href={`/blogs/${slug}`}
+              >
                 Read more
                 <span>
                   <div
