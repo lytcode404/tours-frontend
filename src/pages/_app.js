@@ -8,16 +8,10 @@ import { useState } from "react";
 
 export default function App({ Component, pageProps }) {
 
-  const [filteredData, setFilteredData] = useState([]);
-
-  const handleSearch = (query, data) => {
-    const filtered = data.filter(item => item.title.toLowerCase().includes(query.toLowerCase()));
-    setFilteredData(filtered);
-  };
   return (
     <>
-      <Header onSearch={handleSearch}/>
-      <Component {...pageProps}  filteredData={filteredData} />
+      <Header />
+      <Component {...pageProps}  />
       <Footer />
       <Menu as="div" className="fixed top-8 right-10">
         <Menu.Button className=" w-full justify-center rounded-md px-4 py-2 text-sm font-medium dark:text-white hover:bg-opacity-30 ">
