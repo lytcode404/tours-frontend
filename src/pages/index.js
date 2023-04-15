@@ -46,7 +46,7 @@ function Home({ posts }) {
             Checkout Our Gallery
           </h1>
           <p className="mt-3 text-lg dark:text-gray-300 sm:max-w-lg sm:mx-auto text-center">
-            "Time is more valuable than money. You can get more money, but you
+            Time is more valuable than money. You can get more money but you
             cannot get more time.
           </p>
           <div className="flex flex-wrap -m-4 mt-4">
