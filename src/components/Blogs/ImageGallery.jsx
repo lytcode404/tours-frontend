@@ -17,6 +17,7 @@ export default function ImageGallery () {
               width={10}
               height={10}
               src="https://picsum.photos/502"
+              alt=""
             />
           </Link>
           <Link href="/blogs/all" className="lg:col-span-2">
@@ -25,6 +26,7 @@ export default function ImageGallery () {
               width={10}
               height={10}
               src="https://picsum.photos/300"
+              alt=""
             />
           </Link>
           <Link href="/blogs/all" className="lg:col-span-2">
@@ -33,6 +35,7 @@ export default function ImageGallery () {
               width={10}
               height={10}
               src="https://picsum.photos/303"
+              alt=""
             />
           </Link>
           <Link href="/blogs/all" className="col-span-2 lg:block lg:col-span-4">
@@ -41,6 +44,7 @@ export default function ImageGallery () {
               width={10}
               height={10}
               src="https://picsum.photos/602/296"
+              alt=""
             />
           </Link>
         </div>

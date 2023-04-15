@@ -25,6 +25,7 @@ function Card1({ post }) {
             src={thumbnail}
             width={10}
             height={10}
+            alt=""
           />
           <div className="absolute right-3 left-3 bottom-3">
             <span className="bg-primary-500 text-white tracking-wide text-sm uppercase px-2 py-1 rounded-md">
@@ -36,6 +37,7 @@ function Card1({ post }) {
                   className="w-10 h-10 rounded-full mr-3"
                   width={10}
                   height={10}
+                  alt=""
                   src={authorImage}
                 />
                 <p className="uppercase text-sm">{authorName}</p>
