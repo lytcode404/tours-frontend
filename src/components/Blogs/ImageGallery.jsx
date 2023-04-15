@@ -8,7 +8,7 @@ export default function ImageGallery () {
           Checkout Our Gallery
         </h1>
         <p className="mt-3 text-lg dark:text-gray-300 sm:max-w-lg sm:mx-auto">
-        "Time is more valuable than money. You can get more money, but you cannot get more time.
+        Time is more valuable than money. You can get more money but you cannot get more time.
         </p>
         <div className="grid grid-cols-2 gap-2 mt-7 sm:px-16 lg:grid-cols-8 lg:grid-rows-2 lg:gap-3">
           <Link href="/blogs/all" className="col-span-2 lg:col-span-4 lg:row-span-2">
